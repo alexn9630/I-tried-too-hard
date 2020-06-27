@@ -48,7 +48,7 @@
 
   int main()
   {
-    printf("My name is Alex\n");
+    printf("My name is Anon\n");
     printf("To be or not to be\n");
     printf("c:\\cygwin\\home\\administrator\n\n");
     diamond();
