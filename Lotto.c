@@ -6,7 +6,7 @@ int main(){
     srand((unsigned) time(NULL));
 
     for(int i=0;i<6;i++){ //for loop until get 6 numbers
-        lottoNo[i]= rand()%50; //random no assignment
+        lottoNo[i]= rand()%50; //random no. assignment from 0-49
         for(int j=0;j<i;j++){
             if (lottoNo[i]==lottoNo[j]||lottoNo[i]==0){
                 i--;//this resets the i to the previous number until you get an unique lottoNo[i] that's not == 0
