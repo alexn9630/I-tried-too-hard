@@ -23,7 +23,7 @@ void accendArr(int n, int *arr){
 }
 
 int main(){
-    int shuffled[10]; //Create an array, malloc does not work with sizeof for some reason
+    int shuffled[10]; //Create an array
     srand((unsigned) time(NULL)); //Just make random number
     for(int i=0;i<10;i++){ //Assign the number and print it
         shuffled[i]=rand()%50;
